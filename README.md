@@ -1,6 +1,6 @@
 # Awesome-Data-Discovery
 
-Markdown
+
 # Top Data Discovery Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
