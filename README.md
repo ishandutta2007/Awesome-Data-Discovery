@@ -44,65 +44,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Atlan](https://atlan.com/)**  
-  Modern active-metadata and data-context platform combining data discovery, metadata, lineage, ownership, governance, semantics, collaboration and AI-oriented context. Atlan supports conversational discovery, structured search and MCP-based access to catalog context. :contentReference[oaicite:5]{index=5}
-
-- **[Secoda](https://www.secoda.co/)**  
-  AI-oriented data-management and discovery platform combining cataloging, search, documentation, lineage, governance, data quality and automated metadata workflows.
-
-- **[CastorDoc](https://www.castordoc.com/)**  
-  Data catalog and discovery platform focused on searchable metadata, documentation, data lineage, ownership, governance and data-team collaboration.
-
-- **[DataHub](https://datahub.com/)**  
-  Metadata platform for data discovery, governance and observability, with a strong open-source foundation and enterprise capabilities. DataHub was originally built at LinkedIn and now operates as an independent open-source project. :contentReference[oaicite:6]{index=6}
-
-- **[Alation](https://www.alation.com/)**  
-  Enterprise data intelligence and catalog platform focused on data discovery, search, governance, stewardship, lineage, business context and data literacy.
-
-- **[Collibra](https://www.collibra.com/)**  
-  Enterprise data intelligence and governance platform covering data cataloging, discovery, governance, lineage, quality, privacy, policies and business terminology.
-
-- **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/risk-management/microsoft-purview)**  
-  Microsoft's data governance and compliance ecosystem providing data discovery, cataloging, classification, lineage, governance, compliance and data-security capabilities across Microsoft and external data estates.
-
-- **[IBM Watson Knowledge Catalog](https://www.ibm.com/products/watson-knowledge-catalog)**  
-  Enterprise data catalog and governance platform supporting discovery, metadata management, data quality, business glossary, classification, governance and AI-oriented data access.
-
-- **[OvalEdge](https://www.ovaledge.com/)**  
-  Data catalog and governance platform combining data discovery, cataloging, lineage, business glossary, governance workflows and data quality.
-
-- **[DataGalaxy](https://www.datagalaxy.com/)**  
-  Data catalog and governance platform focused on metadata management, data lineage, business glossary, data ownership and data discovery.
-
-- **[Informatica Cloud Data Governance & Catalog](https://www.informatica.com/)**  
-  Enterprise data catalog and governance ecosystem providing discovery, metadata management, lineage, classification, quality and data intelligence.
-
-- **[Google Dataplex Universal Catalog](https://cloud.google.com/dataplex)**  
-  Google Cloud's data and AI governance/catalog capabilities for discovering, managing, governing and understanding data and AI assets.
-
-- **[AWS Glue Data Catalog](https://aws.amazon.com/glue/)**  
-  Cloud metadata catalog integrated with AWS analytics and data services, providing schemas, tables, metadata discovery and data-lake integration.
-
-- **[Oracle Enterprise Data Management](https://www.oracle.com/enterprise-data-management/)**  
-  Enterprise data-management capabilities covering governance, metadata, business processes and master/reference data.
-
-- **[Precisely Data360](https://www.precisely.com/product/data-integrity/data360)**  
-  Data-intelligence platform combining cataloging, governance, quality, metadata and data management.
-
-- **[erwin Data Intelligence](https://www.erwin.com/)**  
-  Enterprise data intelligence platform providing cataloging, metadata management, lineage, governance, data literacy and business context.
-
-- **[Quest erwin Data Intelligence](https://www.quest.com/)**  
-  Data catalog and intelligence capabilities for enterprise metadata discovery, governance, lineage and data understanding.
-
-- **[Alex Solutions](https://alexsolutions.com/)**  
-  Enterprise data intelligence and governance platform focused on data discovery, metadata, lineage, classification, governance and business context.
-
-- **[Zeenea](https://zeenea.com/)**  
-  Data discovery and catalog platform providing metadata management, search, governance, data products and data marketplace capabilities.
-
-- **[Secoda](https://www.secoda.co/)**  
-  AI-native data discovery and documentation platform combining metadata, search, lineage and data-team workflows.
+| Platform | Key Capabilities & Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Atlan](https://atlan.com/)** | Active-metadata & data context platform; conversational AI/MCP discovery, automated lineage, governance, and business semantics. | Starts at **$15,000 – $25,000 / year** (base tier scaled by active users & connector volume). | **14 to 30-day guided POC trial** with sandbox access upon demo request; no permanent free tier. |
+| **[Secoda](https://www.secoda.co/)** | AI-native data discovery, catalog, automated documentation, lineage, and data team workspace. | **$0 / month** (Free plan); Paid tiers start at **$99 / month** (or **$50 / user / month** for Core). | **Free forever plan**: Up to 5 users, basic catalog, and workspace search; **14-day free trial** for paid tiers (no credit card required). |
+| **[CastorDoc](https://www.castordoc.com/)** | Collaborative data catalog (Coalesce Catalog), automated SQL column lineage, metadata search, and governance. | Starts at **~$10,000 / year** (~$50–$100 / user / month entry subscription). | **14-day free trial** upon sales request with pre-configured demo environment; no permanent free tier. |
+| **[DataHub Cloud (Acryl Data)](https://datahub.com/)** | Managed SaaS metadata platform, enterprise governance, automated lineage, MCP connectivity, and AI analytics agents. | Starts at **~$18,000 – $25,000 / year** (managed SaaS starter tier); Open-source core is **$0** self-hosted. | **14-day managed POC trial** with sample cloud connectors; Open-source version is free forever with self-hosting. |
+| **[Alation](https://www.alation.com/)** | Enterprise data intelligence platform, behavioral analytics, automated cataloging, search, governance, and stewardship. | Starts at **$60,000 / year** (AWS Marketplace base listing, scaling to ~$198,000/yr for typical enterprise deployments). | **14 to 30-day targeted POC trial** / Snowflake catalog sandbox upon demo request; no permanent free tier. |
+| **[Collibra](https://www.collibra.com/)** | Enterprise data intelligence, data governance, metadata catalog, lineage, data quality, and policy management. | Starts at **$150,000 – $170,000 / year** (AWS Marketplace base platform baseline). | **20-day free trial** for Collibra Data Quality & Observability; interactive sandbox tours on demo request; no permanent free tier. |
+| **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/risk-management/microsoft-purview)** | Multi-cloud data governance, automated Data Map, classification, lineage tracking, and compliance management. | Starts at **$0.40 / Capacity Unit (CU) per hour** (~**$292 / month** for 1 CU base: 10 GB metadata storage + 25 ops/sec); **$0.63 / vCore-hour** for automated scanning. | **Free forever tier**: First 1 MB Data Map metadata storage & up to 1,000 annotated assets at $0; **90-day free trial** (25 licenses) for Purview Compliance Suite. |
+| **[IBM Knowledge Catalog](https://www.ibm.com/products/watson-knowledge-catalog)** | Enterprise metadata management, automated data discovery, quality profiling, classification, and AI governance on Cloud Pak for Data. | Starts at **$0.06 / Capacity Unit-Hour (CUH)** or **~$1,500 / month** on IBM Cloud cartridge deployments. | **30-day free trial** with $200 IBM Cloud credits or 30-day Cloud Pak for Data sandbox environment; no permanent free tier. |
+| **[OvalEdge](https://www.ovaledge.com/)** | End-to-end data catalog, governance workflows, automated lineage, data profiling, and access management. | Starts at **$100 / user / month** (or **$2,000 / month** for Essential tier; **$100 / connector / month**). | **14-day free trial** with full feature access and sample data connectors (no credit card required); no permanent free tier. |
+| **[DataGalaxy](https://www.datagalaxy.com/)** | Data and AI product governance, agile cataloging, business glossary, collaborative lineage, and metadata mapping. | Starts at **$32,000 – $49,950 / year** (annual subscription based on editor licenses and data sources). | **15 to 30-day guided pilot / POC trial** upon demo request; no permanent free tier. |
+| **[Informatica Cloud Data Governance & Catalog (CDGC)](https://www.informatica.com/)** | AI-powered metadata discovery (CLAIRE engine), data cataloging, lineage, and governance on IDMC. | Starts at **~$1.20 – $1.50 per Informatica Processing Unit (IPU)**; entry packages start around **$2,500 / month** (~$30,000 / year). | **30-day free trial** for IDMC cloud suite (CDGC catalog module activated upon consultation); no permanent free tier. |
+| **[Google Dataplex Universal Catalog](https://cloud.google.com/dataplex)** | Unified data and AI governance, automated metadata discovery, data profiling, lineage, and search across Google Cloud. | Starts at **$0.060 / DCU-hour** for standard metadata processing (**$0.089 / DCU-hour** for premium profiling/lineage) + **$2.00 / GiB / month** for metadata storage. | **Free forever tier**: First 100 DCU-hours / month for standard processing, first 1 MiB metadata storage, and first 1,000,000 API calls / month free. |
+| **[AWS Glue Data Catalog](https://aws.amazon.com/glue/)** | Centralized metadata repository and schema registry integrated with AWS data lakes, analytics, and ETL pipelines. | **$1.00 per 100,000 objects stored / month** and **$1.00 per 1,000,000 requests** (beyond free tier). | **Free forever tier**: First 1,000,000 objects stored and first 1,000,000 requests / month free forever. |
+| **[Oracle Enterprise Data Management](https://www.oracle.com/enterprise-data-management/)** | Master data management, enterprise business glossary, dimension governance, metadata management, and auditability. | Starts at **$500 / hosted named user / month** (min. 25 users = **$12,500 / month** / ~$150,000 / year) or **$1.50 / hosted record / year**. | **30-day free trial** with $300 cloud credits via Oracle Cloud Free Tier; enterprise EDM sandbox available via sales request; no permanent free tier. |
+| **[Precisely Data360](https://www.precisely.com/product/data-integrity/data360)** | Integrated data intelligence, cataloging, quality scoring, lineage, and business-facing metadata governance. | Starts at **$35,000 – $50,000 / year** (base annual enterprise subscription / AWS Marketplace private offer). | **14 to 30-day tailored POC trial** upon mutual agreement with sales; no permanent free tier. |
+| **[erwin Data Intelligence (Quest)](https://www.erwin.com/)** | Automated enterprise data cataloging, metadata harvesting, lineage mapping, and business glossary governance. | Starts at **~£4,202 (~$5,400) / user / year** (entry platform packages start around **$25,000 / year**). | **14 to 30-day evaluation trial** upon sales request; no permanent free tier. |
+| **[Alex Solutions](https://alexsolutions.com/)** | Enterprise data intelligence, metadata harvest, automated lineage, sensitive data discovery, and asset certification. | Starts at **$10,000 / year** (with a structured **$20,000 first-year pilot program**). | **30-day proof-of-concept (POC) sandbox trial** environment upon demo request; no permanent free tier. |
+| **[Zeenea](https://zeenea.com/)** | Cloud-native data discovery, metadata graph catalog, data marketplace, data products, and automated lineage. | Starts at **€18,000 (~$19,500) / year** (starter tier: 5 stewards, 50 consumers), scaling to **$40,000+ / year**. | **14-day guided trial / sandbox demo** environment upon request; no permanent free tier. |
 
 ## Open-Source GitHub Projects
 
