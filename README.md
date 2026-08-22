@@ -1,7 +1,7 @@
 # Awesome-Data-Discovery
 
 
-# Top Data Discovery Platform Ecosystem
+## Top Data Discovery Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Data Discovery, Data Cataloging, Metadata Management, Data Lineage, Business Glossaries, Data Governance, Data Quality, Data Classification, Data Search & AI-Ready Data Context*  
