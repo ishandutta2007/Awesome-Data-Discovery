@@ -1,309 +1,287 @@
-# Awesome-Data-Discovery
+# 🔍 Awesome Data Discovery [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Data Discovery Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Discovery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Discovery?style=for-the-badge&logo=github&color=gold" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Discovery/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Discovery?style=for-the-badge&logo=github&color=blue" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Discovery/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Discovery/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-## Top Data Discovery Platform Ecosystem
+## 🧭 Top Data Discovery & Data Catalog Platform Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Data Discovery, Data Cataloging, Metadata Management, Data Lineage, Business Glossaries, Data Governance, Data Quality, Data Classification, Data Search & AI-Ready Data Context*  
-**Last updated: August 2026**
+> **A curated showcase of premier SaaS products & leading Open-Source GitHub projects for Data Discovery, Active Metadata Management, Automated Data Cataloging, Column-Level Data Lineage, Business Glossaries, Enterprise Data Governance, Data Quality, Semantic Search & AI-Ready Data Context (MCP & LLMs).**  
+> 📅 **Last updated: August 2026**
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Data Discovery and Data Cataloging**. These tools help organizations find, understand, trust, govern and use data across warehouses, lakes, databases, BI platforms, transformation tools, pipelines, APIs, ML systems and other data sources.
+---
 
-Modern data-discovery platforms typically provide **metadata harvesting, data catalogs, search, semantic discovery, business glossaries, ownership, stewardship, lineage, profiling, classifications, tags, data quality signals, usage statistics, certification, governance policies, impact analysis and increasingly AI-powered data discovery**.
+### 🌐 Overview & Core Capabilities
 
-**Examples** include Atlan, Secoda, CastorDoc, DataHub, Alation, Collibra, Microsoft Purview, IBM Watson Knowledge Catalog, OvalEdge and DataGalaxy.
+Modern enterprise data discovery platforms provide automated **metadata harvesting, semantic data catalogs, full-text & semantic search, business glossaries, data ownership & stewardship, column-level data lineage, profiling, sensitivity classification (PII/GDPR/HIPAA), data quality signals, access governance policies, impact analysis, and AI context layers via Model Context Protocol (MCP)**.
 
-**[Atlan](https://atlan.com/)** positions itself as a context layer for AI, bringing together metadata, semantics, lineage and business knowledge so data teams and AI agents can discover and understand enterprise data. Its discovery experience supports conversational, MCP-based and structured search. :contentReference[oaicite:0]{index=0}
+These systems empower data engineers, analytics engineers, data scientists, CDOs, governance teams, and autonomous AI agents to find, trust, govern, and extract value from data distributed across multi-cloud data warehouses, lakehouses, transactional databases, BI tools, transformation engines, APIs, and machine learning pipelines.
 
-**[DataHub](https://github.com/datahub-project/datahub)** is one of the strongest open-source data-discovery platforms. Originally built at LinkedIn, it provides a metadata platform for discovery, governance and observability, with an Apache 2.0 license and extensive ingestion/connectivity capabilities. :contentReference[oaicite:1]{index=1}
+---
 
-**[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** is another major open-source option, combining cataloging, discovery, lineage, data quality, governance, semantics and a metadata knowledge graph. It is released under Apache 2.0. :contentReference[oaicite:2]{index=2}
+## 📑 Table of Contents
 
-**Open-source emphasis**: This section is heavily expanded with major active **open-source data catalogs, metadata platforms, discovery engines, lineage systems, governance frameworks, data marketplaces, metadata standards and supporting infrastructure**.
+- [🏢 SaaS & Hosted Platforms](#-saashosted-platforms)
+- [⭐ Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🗂️ Full Data Catalog & Discovery Platforms](#️-full-data-catalog--discovery-platforms)
+  - [📊 Lineage, Transformation & Pipeline Orchestration](#-lineage-transformation--pipeline-orchestration)
+  - [🔍 Search, Semantic Engines & Semantic Layer](#-search-semantic-engines--semantic-layer)
+  - [📈 Data Portals, Marketplaces & BI Analytics](#-data-portals-marketplaces--bi-analytics)
+  - [🛡️ Unified Metadata, Governance & Contract Standards](#️-unified-metadata-governance--contract-standards)
+  - [💾 Lakehouse, Table Formats & Storage Metadata](#-lakehouse-table-formats--storage-metadata)
+  - [🎯 Data Quality, Profiling & Observability](#-data-quality-profiling--observability)
+  - [🕸️ Knowledge Graphs & Semantic Infrastructure](#️-knowledge-graphs--semantic-infrastructure)
+- [🏆 Ranked Open-Source Leaderboard](#-ranked-open-source-leaderboard)
+- [🏗️ Recommended Open-Source Data Discovery Architecture](#️-recommended-open-source-data-discovery-architecture)
+  - [📊 Suggested Discovery Data Model](#-suggested-discovery-data-model)
+  - [🔄 Metadata Ingestion Pipeline](#-metadata-ingestion-pipeline)
+  - [⚡ Impact Analysis & Column Lineage](#-impact-analysis--column-lineage)
+  - [🤖 AI-Assisted Data Discovery Architecture](#-ai-assisted-data-discovery-architecture)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
 
-The open-source landscape in data discovery is unusually strong. **DataHub, OpenMetadata, Apache Atlas, Amundsen, Open Data Discovery, Egeria, Gravitino, Marquez, Magda, CKAN and Grai** cover different portions of the data-catalog and metadata ecosystem. An independent catalog comparison also lists these projects across open-source catalog, lineage and metadata-management capabilities. :contentReference[oaicite:3]{index=3}
+---
 
-**[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** is particularly interesting for modern AI-ready data discovery because it connects technical metadata, quality, lineage, ownership, usage, policies, glossaries, classifications, metrics, domains, data products and semantic context into a unified metadata graph. :contentReference[oaicite:4]{index=4}
+## 🏢 SaaS/Hosted Platforms
 
-**[Apache Atlas](https://github.com/apache/atlas)** provides a mature open-source metadata and governance foundation with classification, lineage and metadata-management capabilities.
+The table below is sorted in **descending order by company size** (Market Cap / Valuation / Enterprise Scale).
 
-**[Amundsen](https://github.com/amundsen-io/amundsen)** provides an open-source data-discovery and metadata platform originally created at Lyft, particularly focused on helping users find and understand data assets.
+| 🏢 Platform | 💰 Company Valuation / Revenue | ⚡ Key Capabilities & Description | 💵 Starting Pricing | 🎁 Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/risk-management/microsoft-purview)** | **~$3.10 Trillion Market Cap** ($245B+ ARR) | Multi-cloud data governance, automated Data Map, classification, lineage tracking, and compliance management across hybrid data estates. | Starts at **$0.40 / Capacity Unit (CU) per hour** (~**$292 / month** for 1 CU base: 10 GB metadata storage + 25 ops/sec); **$0.63 / vCore-hour** for automated scanning. | **Free forever tier**: First 1 MB Data Map metadata storage & up to 1,000 annotated assets at $0; **90-day free trial** (25 licenses) for Purview Compliance Suite. |
+| **[Google Dataplex Universal Catalog](https://cloud.google.com/dataplex)** | **~$2.10 Trillion Market Cap** ($350B+ ARR) | Unified data and AI governance, automated metadata discovery, data profiling, lineage, and search across Google Cloud. | Starts at **$0.060 / DCU-hour** for standard metadata processing (**$0.089 / DCU-hour** for premium profiling/lineage) + **$2.00 / GiB / month** for metadata storage. | **Free forever tier**: First 100 DCU-hours / month for standard processing, first 1 MiB metadata storage, and first 1,000,000 API calls / month free. |
+| **[AWS Glue Data Catalog](https://aws.amazon.com/glue/)** | **~$1.90 Trillion Market Cap** ($600B+ ARR) | Centralized metadata repository and schema registry integrated with AWS data lakes, analytics, Athena, and ETL pipelines. | **$1.00 per 100,000 objects stored / month** and **$1.00 per 1,000,000 requests** (beyond free tier). | **Free forever tier**: First 1,000,000 objects stored and first 1,000,000 requests / month free forever. |
+| **[Oracle Enterprise Data Management](https://www.oracle.com/enterprise-data-management/)** | **~$420.0 Billion Market Cap** ($53B+ ARR) | Master data management, enterprise business glossary, dimension governance, metadata management, and auditability on Oracle Cloud EPM. | Starts at **$500 / hosted named user / month** (min. 25 users = **$12,500 / month** / ~$150,000 / year) or **$1.50 / hosted record / year**. | **30-day free trial** with $300 cloud credits via Oracle Cloud Free Tier; enterprise EDM sandbox available via sales request; no permanent free tier. |
+| **[IBM Knowledge Catalog](https://www.ibm.com/products/watson-knowledge-catalog)** | **~$200.0 Billion Market Cap** ($62B+ ARR) | Enterprise metadata management, automated data discovery, quality profiling, classification, and AI governance on Cloud Pak for Data. | Starts at **$0.06 / Capacity Unit-Hour (CUH)** or **~$1,500 / month** on IBM Cloud cartridge deployments. | **30-day free trial** with $200 IBM Cloud credits or 30-day Cloud Pak for Data sandbox environment; no permanent free tier. |
+| **[Secoda](https://www.secoda.co/)** | **~$50.0 Billion Market Cap** (Parent Atlassian / $4.4B+ ARR) | AI-native data discovery, catalog, automated documentation, lineage, and collaborative data team workspace. | **$0 / month** (Free plan); Paid tiers start at **$99 / month** (or **$50 / user / month** for Core). | **Free forever plan**: Up to 5 users, basic catalog, and workspace search; **14-day free trial** for paid tiers (no credit card required). |
+| **[Informatica Cloud Data Governance & Catalog](https://www.informatica.com/)** | **~$8.5 Billion Market Cap** ($1.6B+ ARR) | AI-powered metadata discovery (CLAIRE engine), data cataloging, lineage, and governance on Intelligent Data Management Cloud (IDMC). | Starts at **~$1.20 – $1.50 per Informatica Processing Unit (IPU)**; entry packages start around **$2,500 / month** (~$30,000 / year). | **30-day free trial** for IDMC cloud suite (CDGC catalog module activated upon consultation); no permanent free tier. |
+| **[erwin Data Intelligence (Quest)](https://www.erwin.com/)** | **~$5.4 Billion Valuation** (Quest Software / Clearlake / ~$1B+ ARR) | Automated enterprise data cataloging, metadata harvesting, lineage mapping, and business glossary governance. | Starts at **~£4,202 (~$5,400) / user / year** (entry platform packages start around **$25,000 / year**). | **14 to 30-day evaluation trial** upon sales request; no permanent free tier. |
+| **[Collibra](https://www.collibra.com/)** | **~$5.25 Billion Valuation** ($250M+ ARR) | Enterprise data intelligence, data governance, metadata catalog, lineage, data quality, and policy management. | Starts at **$150,000 – $170,000 / year** (AWS Marketplace base platform baseline). | **20-day free trial** for Collibra Data Quality & Observability; interactive sandbox tours on demo request; no permanent free tier. |
+| **[Precisely Data360](https://www.precisely.com/product/data-integrity/data360)** | **~$3.5 Billion Valuation** (Precisely / Clearlake-TA / ~$1B+ ARR) | Integrated data intelligence, cataloging, quality scoring, lineage, and business-facing metadata governance. | Starts at **$35,000 – $50,000 / year** (base annual enterprise subscription / AWS Marketplace private offer). | **14 to 30-day tailored POC trial** upon mutual agreement with sales; no permanent free tier. |
+| **[Alation](https://www.alation.com/)** | **~$1.70 Billion Valuation** ($150M+ ARR) | Enterprise data intelligence platform, behavioral analytics, automated cataloging, search, governance, and stewardship. | Starts at **$60,000 / year** (AWS Marketplace base listing, scaling to ~$198,000/yr for typical enterprise deployments). | **14 to 30-day targeted POC trial** / Snowflake catalog sandbox upon demo request; no permanent free tier. |
+| **[Atlan](https://atlan.com/)** | **~$750 Million Valuation** ($50M+ ARR / $105M Series C) | Active-metadata & data context platform; conversational AI/MCP discovery, automated lineage, governance, and business semantics. | Starts at **$15,000 – $25,000 / year** (base tier scaled by active users & connector volume). | **14 to 30-day guided POC trial** with sandbox access upon demo request; no permanent free tier. |
+| **[DataHub Cloud (Acryl Data)](https://datahub.com/)** | **~$200 Million Valuation** ($21M+ Series A) | Managed SaaS metadata platform, enterprise governance, automated lineage, MCP connectivity, and AI analytics agents. | Starts at **~$18,000 – $25,000 / year** (managed SaaS starter tier); Open-source core is **$0** self-hosted. | **14-day managed POC trial** with sample cloud connectors; Open-source version is free forever with self-hosting. |
+| **[CastorDoc (Coalesce Catalog)](https://www.castordoc.com/)** | **~$150 Million Valuation** ($26M+ funding) | Collaborative data catalog, automated SQL column lineage, metadata search, and governance. | Starts at **~$10,000 / year** (~$50–$100 / user / month entry subscription). | **14-day free trial** upon sales request with pre-configured demo environment; no permanent free tier. |
+| **[Zeenea](https://zeenea.com/)** | **~$100 Million Valuation** (Actian / $30M+ funding) | Cloud-native data discovery, metadata graph catalog, data marketplace, data products, and automated lineage. | Starts at **€18,000 (~$19,500) / year** (starter tier: 5 stewards, 50 consumers), scaling to **$40,000+ / year**. | **14-day guided trial / sandbox demo** environment upon request; no permanent free tier. |
+| **[DataGalaxy](https://www.datagalaxy.com/)** | **~$60 Million Valuation** ($10M+ Series A) | Data and AI product governance, agile cataloging, business glossary, collaborative lineage, and metadata mapping. | Starts at **$32,000 – $49,950 / year** (annual subscription based on editor licenses and data sources). | **15 to 30-day guided pilot / POC trial** upon demo request; no permanent free tier. |
+| **[OvalEdge](https://www.ovaledge.com/)** | **~$40 Million Valuation** (~$10M ARR / Profitable) | End-to-end data catalog, governance workflows, automated lineage, data profiling, and access management. | Starts at **$100 / user / month** (or **$2,000 / month** for Essential tier; **$100 / connector / month**). | **14-day free trial** with full feature access and sample data connectors (no credit card required); no permanent free tier. |
+| **[Alex Solutions](https://alexsolutions.com/)** | **~$25 Million Valuation** ($5M+ ARR) | Enterprise data intelligence, metadata harvest, automated lineage, sensitive data discovery, and asset certification. | Starts at **$10,000 / year** (with a structured **$20,000 first-year pilot program**). | **30-day proof-of-concept (POC) sandbox trial** environment upon demo request; no permanent free tier. |
 
-**[Open Data Discovery](https://github.com/opendatadiscovery-ecosystem/odd-platform)** provides an open-source metadata platform for data discovery and observability, with an ecosystem around metadata ingestion and interoperability.
+## ⭐ Open-Source GitHub Projects
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or GitHub repositories.
+> *All repositories below include live star badges linking directly to their stargazers page and are sorted in **descending order by star count** within each category.*
 
-## Table of Contents
+### 🗂️ Full Data Catalog & Discovery Platforms
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Additional Strong Open-Source Options](#additional-strong-open-source-options)
-- [Recommended Open-Source Data Discovery Stack](#recommended-open-source-data-discovery-stack)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+- **[DataHub](https://github.com/datahub-project/datahub)** [![GitHub stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers)  
+  **Enterprise-grade extensible metadata platform & data catalog.** Originally built at LinkedIn, DataHub provides automated discovery, governance, 360-degree observability, real-time lineage, MCP server support, and AI-assisted analytics agents under Apache 2.0.
 
-## SaaS/Hosted Platforms
+- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
+  **Unified data catalog, governance & AI context engine.** Combines technical metadata, column-level lineage, integrated data quality testing, team ownership, glossaries, classification tags, data contracts, metrics, and knowledge graphs under Apache 2.0.
 
-| Platform | Key Capabilities & Description | Starting Pricing | Free Tier / Free Trial Limits |
-| :--- | :--- | :--- | :--- |
-| **[Atlan](https://atlan.com/)** | Active-metadata & data context platform; conversational AI/MCP discovery, automated lineage, governance, and business semantics. | Starts at **$15,000 – $25,000 / year** (base tier scaled by active users & connector volume). | **14 to 30-day guided POC trial** with sandbox access upon demo request; no permanent free tier. |
-| **[Secoda](https://www.secoda.co/)** | AI-native data discovery, catalog, automated documentation, lineage, and data team workspace. | **$0 / month** (Free plan); Paid tiers start at **$99 / month** (or **$50 / user / month** for Core). | **Free forever plan**: Up to 5 users, basic catalog, and workspace search; **14-day free trial** for paid tiers (no credit card required). |
-| **[CastorDoc](https://www.castordoc.com/)** | Collaborative data catalog (Coalesce Catalog), automated SQL column lineage, metadata search, and governance. | Starts at **~$10,000 / year** (~$50–$100 / user / month entry subscription). | **14-day free trial** upon sales request with pre-configured demo environment; no permanent free tier. |
-| **[DataHub Cloud (Acryl Data)](https://datahub.com/)** | Managed SaaS metadata platform, enterprise governance, automated lineage, MCP connectivity, and AI analytics agents. | Starts at **~$18,000 – $25,000 / year** (managed SaaS starter tier); Open-source core is **$0** self-hosted. | **14-day managed POC trial** with sample cloud connectors; Open-source version is free forever with self-hosting. |
-| **[Alation](https://www.alation.com/)** | Enterprise data intelligence platform, behavioral analytics, automated cataloging, search, governance, and stewardship. | Starts at **$60,000 / year** (AWS Marketplace base listing, scaling to ~$198,000/yr for typical enterprise deployments). | **14 to 30-day targeted POC trial** / Snowflake catalog sandbox upon demo request; no permanent free tier. |
-| **[Collibra](https://www.collibra.com/)** | Enterprise data intelligence, data governance, metadata catalog, lineage, data quality, and policy management. | Starts at **$150,000 – $170,000 / year** (AWS Marketplace base platform baseline). | **20-day free trial** for Collibra Data Quality & Observability; interactive sandbox tours on demo request; no permanent free tier. |
-| **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/risk-management/microsoft-purview)** | Multi-cloud data governance, automated Data Map, classification, lineage tracking, and compliance management. | Starts at **$0.40 / Capacity Unit (CU) per hour** (~**$292 / month** for 1 CU base: 10 GB metadata storage + 25 ops/sec); **$0.63 / vCore-hour** for automated scanning. | **Free forever tier**: First 1 MB Data Map metadata storage & up to 1,000 annotated assets at $0; **90-day free trial** (25 licenses) for Purview Compliance Suite. |
-| **[IBM Knowledge Catalog](https://www.ibm.com/products/watson-knowledge-catalog)** | Enterprise metadata management, automated data discovery, quality profiling, classification, and AI governance on Cloud Pak for Data. | Starts at **$0.06 / Capacity Unit-Hour (CUH)** or **~$1,500 / month** on IBM Cloud cartridge deployments. | **30-day free trial** with $200 IBM Cloud credits or 30-day Cloud Pak for Data sandbox environment; no permanent free tier. |
-| **[OvalEdge](https://www.ovaledge.com/)** | End-to-end data catalog, governance workflows, automated lineage, data profiling, and access management. | Starts at **$100 / user / month** (or **$2,000 / month** for Essential tier; **$100 / connector / month**). | **14-day free trial** with full feature access and sample data connectors (no credit card required); no permanent free tier. |
-| **[DataGalaxy](https://www.datagalaxy.com/)** | Data and AI product governance, agile cataloging, business glossary, collaborative lineage, and metadata mapping. | Starts at **$32,000 – $49,950 / year** (annual subscription based on editor licenses and data sources). | **15 to 30-day guided pilot / POC trial** upon demo request; no permanent free tier. |
-| **[Informatica Cloud Data Governance & Catalog (CDGC)](https://www.informatica.com/)** | AI-powered metadata discovery (CLAIRE engine), data cataloging, lineage, and governance on IDMC. | Starts at **~$1.20 – $1.50 per Informatica Processing Unit (IPU)**; entry packages start around **$2,500 / month** (~$30,000 / year). | **30-day free trial** for IDMC cloud suite (CDGC catalog module activated upon consultation); no permanent free tier. |
-| **[Google Dataplex Universal Catalog](https://cloud.google.com/dataplex)** | Unified data and AI governance, automated metadata discovery, data profiling, lineage, and search across Google Cloud. | Starts at **$0.060 / DCU-hour** for standard metadata processing (**$0.089 / DCU-hour** for premium profiling/lineage) + **$2.00 / GiB / month** for metadata storage. | **Free forever tier**: First 100 DCU-hours / month for standard processing, first 1 MiB metadata storage, and first 1,000,000 API calls / month free. |
-| **[AWS Glue Data Catalog](https://aws.amazon.com/glue/)** | Centralized metadata repository and schema registry integrated with AWS data lakes, analytics, and ETL pipelines. | **$1.00 per 100,000 objects stored / month** and **$1.00 per 1,000,000 requests** (beyond free tier). | **Free forever tier**: First 1,000,000 objects stored and first 1,000,000 requests / month free forever. |
-| **[Oracle Enterprise Data Management](https://www.oracle.com/enterprise-data-management/)** | Master data management, enterprise business glossary, dimension governance, metadata management, and auditability. | Starts at **$500 / hosted named user / month** (min. 25 users = **$12,500 / month** / ~$150,000 / year) or **$1.50 / hosted record / year**. | **30-day free trial** with $300 cloud credits via Oracle Cloud Free Tier; enterprise EDM sandbox available via sales request; no permanent free tier. |
-| **[Precisely Data360](https://www.precisely.com/product/data-integrity/data360)** | Integrated data intelligence, cataloging, quality scoring, lineage, and business-facing metadata governance. | Starts at **$35,000 – $50,000 / year** (base annual enterprise subscription / AWS Marketplace private offer). | **14 to 30-day tailored POC trial** upon mutual agreement with sales; no permanent free tier. |
-| **[erwin Data Intelligence (Quest)](https://www.erwin.com/)** | Automated enterprise data cataloging, metadata harvesting, lineage mapping, and business glossary governance. | Starts at **~£4,202 (~$5,400) / user / year** (entry platform packages start around **$25,000 / year**). | **14 to 30-day evaluation trial** upon sales request; no permanent free tier. |
-| **[Alex Solutions](https://alexsolutions.com/)** | Enterprise data intelligence, metadata harvest, automated lineage, sensitive data discovery, and asset certification. | Starts at **$10,000 / year** (with a structured **$20,000 first-year pilot program**). | **30-day proof-of-concept (POC) sandbox trial** environment upon demo request; no permanent free tier. |
-| **[Zeenea](https://zeenea.com/)** | Cloud-native data discovery, metadata graph catalog, data marketplace, data products, and automated lineage. | Starts at **€18,000 (~$19,500) / year** (starter tier: 5 stewards, 50 consumers), scaling to **$40,000+ / year**. | **14-day guided trial / sandbox demo** environment upon request; no permanent free tier. |
+- **[Amundsen](https://github.com/amundsen-io/amundsen)** [![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers)  
+  **Modular data discovery & metadata engine.** Originally developed at Lyft, Amundsen indexes data assets (tables, dashboards, streams, users) using graph backends (Neo4j/Atlas) and search indexes (Elasticsearch/OpenSearch).
 
-## Open-Source GitHub Projects
+- **[CKAN](https://github.com/ckan/ckan)** [![GitHub stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers)  
+  **Open-source data portal & dataset marketplace platform.** World-leading open data platform powering national data portals, public catalogs, dataset publishing, metadata indexing, search, organizations, and REST APIs.
 
-> **Note:** The projects below are not all direct Atlan/Alation/Collibra/Purview equivalents. They cover different parts of the data-discovery ecosystem, including data catalogs, metadata management, lineage, governance, observability, data marketplaces, knowledge graphs and metadata infrastructure.
+- **[Apache Atlas](https://github.com/apache/atlas)** [![GitHub stars](https://img.shields.io/github/stars/apache/atlas?style=social&color=white)](https://github.com/apache/atlas/stargazers)  
+  **Scalable enterprise metadata management and governance framework.** Provides open metadata management, classification, security tagging, dynamic lineage, and integration across the Apache Hadoop/Spark analytics ecosystem.
 
-### Full Data Catalog / Discovery Platforms
+- **[Magda](https://github.com/magda-io/magda)** [![GitHub stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers)  
+  **Federated microservice data catalog & discovery platform.** Designed for enterprise and government deployments, providing automated harvesting across internal and external data portals with rich spatial/geographic metadata search.
 
-- **[DataHub](https://github.com/datahub-project/datahub)**  
-  **Open-source data catalog — strongest overall candidate.**  
-  Enterprise-grade metadata platform providing data discovery, governance, observability, metadata search, ownership, lineage, usage information and integrations across the modern data stack. It is Apache 2.0 licensed. :contentReference[oaicite:7]{index=7}
+- **[Open Data Discovery (ODD Platform)](https://github.com/opendatadiscovery-ecosystem/odd-platform)** [![GitHub stars](https://img.shields.io/github/stars/opendatadiscovery-ecosystem/odd-platform?style=social&color=white)](https://github.com/opendatadiscovery-ecosystem/odd-platform/stargazers)  
+  **Open metadata, discovery and data observability platform.** Focuses on decentralized metadata ingestion, automated lineage mapping, anomaly alerting, and open metadata standard interoperability.
 
-- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)**  
-  **Open-source data catalog and AI context platform.**  
-  Provides data discovery, metadata management, lineage, column-level lineage, quality, ownership, glossaries, classifications, policies, metrics, data products, semantic search and a metadata knowledge graph. It is released under Apache 2.0. :contentReference[oaicite:8]{index=8}
+---
 
-- **[Amundsen](https://github.com/amundsen-io/amundsen)**  
-  **Open-source data discovery platform.**  
-  Originally developed at Lyft, Amundsen provides searchable metadata and data-discovery functionality designed to help data users find and understand datasets.
+### 📊 Lineage, Transformation & Pipeline Orchestration
 
-- **[Open Data Discovery Platform](https://github.com/opendatadiscovery-ecosystem/odd-platform)**  
-  **Open-source metadata and discovery platform.**  
-  Provides a foundation for metadata management, data discovery and observability-oriented workflows.
+- **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+  **Unified multi-language engine for large-scale data analytics.** Produces execution plans, catalog metadata, and schema information that stream directly into metadata and lineage systems.
 
-- **[Apache Atlas](https://github.com/apache/atlas)**  
-  **Open-source metadata and governance platform.**  
-  Provides metadata management, classification, lineage, discovery and governance capabilities for enterprise data environments.
+- **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+  **Industry standard workflow orchestration platform.** Emits execution metadata and pipeline run events to feed automated data lineage engines.
 
-- **[Magda](https://github.com/magda-io/magda)**  
-  **Open-source data catalog and discovery platform.**  
-  Provides metadata cataloging, search, data discovery and federated data-source integration, with particular relevance to public-sector and large data ecosystems.
+- **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
+  **Modern data workflow orchestration & pipeline coordination.** Provides real-time execution observability, state tracking, and pipeline asset metadata.
 
-- **[CKAN](https://github.com/ckan/ckan)**  
-  **Open-source data portal and catalog platform.**  
-  Provides dataset publishing, metadata, search, organizations, tags and APIs. Particularly strong for public/open-data catalogs and data marketplaces.
+- **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
+  **Software-defined asset & orchestration platform.** Native asset-centric data design with built-in metadata tracking, dataset lineage, and partition-level observability.
 
-### Metadata & Governance Platforms
+- **[dbt Core](https://github.com/dbt-labs/dbt-core)** [![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)  
+  **Transformation framework for analytics engineering.** Generates `manifest.json` and `catalog.json` documentation, column descriptions, and lineage dependency graphs for catalog ingestion.
 
-- **[Egeria](https://github.com/odpi/egeria)**  
-  **Open-source metadata and governance ecosystem.**  
-  Provides open metadata standards, APIs and services designed to support metadata exchange, governance, lineage and interoperability across data platforms.
+- **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** [![GitHub stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers)  
+  **Universal open standard for data lineage metadata collection.** Defines an open JSON schema for capturing runtime lineage events from Spark, Flink, Airflow, dbt, and Great Expectations.
 
-- **[Apache Gravitino](https://github.com/apache/gravitino)**  
-  **Open-source unified metadata management platform.**  
-  Provides a metadata catalog abstraction across data sources and supports unified management of heterogeneous data assets.
+- **[Marquez](https://github.com/MarquezProject/marquez)** [![GitHub stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers)  
+  **Open-source metadata service & reference OpenLineage backend.** Collects, aggregates, and visualizes complex end-to-end dataset and job dependencies across distributed pipelines.
 
-- **[Marquez](https://github.com/MarquezProject/marquez)**  
-  **Open-source metadata and lineage service.**  
-  Provides a metadata repository and lineage-oriented infrastructure associated with OpenLineage. It is useful as a building block for data-discovery and lineage systems.
+- **[Spline](https://github.com/AbsaOSS/spline)** [![GitHub stars](https://img.shields.io/github/stars/AbsaOSS/spline?style=social&color=white)](https://github.com/AbsaOSS/spline/stargazers)  
+  **Automated data lineage tracking & visualization for Apache Spark.** Captures detailed column-level operations and logical transformation steps transparently.
 
-- **[Grai Core](https://github.com/grai-io/grai-core)**  
-  **Open-source data lineage and metadata framework.**  
-  Provides programmatic infrastructure for representing and connecting data assets and lineage relationships.
+---
 
-- **[OpenLineage](https://github.com/OpenLineage/OpenLineage)**  
-  **Open standard and ecosystem for data lineage.**  
-  Provides an open framework for collecting and transporting lineage events from pipelines and data-processing systems.
+### 🔍 Search, Semantic Engines & Semantic Layer
 
-### Data Discovery & Metadata Standards
+- **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
+  **Ultra-fast, typo-tolerant search engine.** Excellent for sub-50ms catalog search, dataset discovery, tag filtering, and business glossary lookups.
 
-- **[OpenMetadata Standards](https://github.com/open-metadata/OpenMetadata-standards)**  
-  Open-source schemas, APIs and semantic specifications supporting metadata interoperability, governance, lineage, data products and AI context. OpenMetadata explicitly emphasizes open metadata standards and interoperability. :contentReference[oaicite:9]{index=9}
+- **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
+  **In-memory, developer-friendly search engine.** High-performance faceted search engine for instant catalog queries, metadata indexing, and typo-tolerant discovery.
 
-- **[Open Data Contract Standard](https://github.com/bitol-io/open-data-contract-standard)**  
-  Open standard for defining data contracts, including schemas, quality expectations, SLAs and producer/consumer relationships.
+- **[Cube](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
+  **Universal semantic layer for analytics and AI.** Centralizes data modeling, metric definitions, access control, and semantic queries across data sources.
 
-- **[Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-3/)**  
-  W3C vocabulary for interoperable descriptions of datasets and data services.
+- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+  **Community-driven search and analytics suite.** Scalable distributed search and vector indexing layer powering enterprise data catalogs like DataHub and OpenMetadata.
 
-- **[PROV-O](https://www.w3.org/TR/prov-o/)**  
-  W3C provenance ontology useful for representing data lineage and provenance relationships.
+- **[Apache Solr](https://github.com/apache/solr)** [![GitHub stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)  
+  **Enterprise search platform built on Apache Lucene.** High-reliability full-text search, faceted navigation, and metadata indexing for massive data repositories.
 
-### Data Quality & Profiling
+---
 
-- **[Soda Core](https://github.com/sodadata/soda-core)**  
-  **Open-source data-quality framework.**  
-  Provides data-quality checks, profiling and validation capabilities that can enrich a data catalog with trust signals.
+### 📈 Data Portals, Marketplaces & BI Analytics
 
-- **[Great Expectations](https://github.com/great-expectations/great_expectations)**  
-  **Open-source data-quality framework.**  
-  Provides expectations and validation for data pipelines and datasets.
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+  **Enterprise business intelligence & visualization platform.** Connects to any SQL database, exposes table/column metadata, metrics, dashboards, and virtual dataset layers for discovery.
 
-- **[Deequ](https://github.com/awslabs/deequ)**  
-  **Open-source data-quality library.**  
-  Provides data-quality verification and profiling for large datasets.
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+  **Intuitive open-source analytics & business intelligence.** Auto-generates data dictionaries, model definitions, question lineage, and self-service exploration.
 
-- **[Pandera](https://github.com/unionai-oss/pandera)**  
-  **Open-source data validation framework for Python.**  
-  Useful for validating analytical datasets and feeding quality metadata into catalog systems.
+- **[Data Commons](https://github.com/datacommonsorg)** [![GitHub stars](https://img.shields.io/github/stars/datacommonsorg?style=social&color=white)](https://github.com/datacommonsorg/stargazers)  
+  **Open knowledge graph of public datasets.** Synthesizes thousands of public datasets (demographics, health, climate, economics) into an interconnected schema based on Schema.org.
 
-- **[dbt Core](https://github.com/dbt-labs/dbt-core)**  
-  **Open-source analytics-engineering framework.**  
-  Provides transformation metadata, tests, documentation and lineage information that can be integrated into data catalogs.
+---
 
-### Lineage & Pipeline Metadata
+### 🛡️ Unified Metadata, Governance & Contract Standards
 
-- **[OpenLineage](https://github.com/OpenLineage/OpenLineage)**  
-  Open standard and ecosystem for capturing lineage events across data-processing jobs.
+- **[Apache Gravitino](https://github.com/apache/gravitino)** [![GitHub stars](https://img.shields.io/github/stars/apache/gravitino?style=social&color=white)](https://github.com/apache/gravitino/stargazers)  
+  **Unified multi-cloud metadata management system.** Provides unified catalog abstractions across relational databases, data lakes, messaging brokers, and AI model registries.
 
-- **[Marquez](https://github.com/MarquezProject/marquez)**  
-  Reference implementation and metadata service for OpenLineage events.
+- **[Grai Core](https://github.com/grai-io/grai-core)** [![GitHub stars](https://img.shields.io/github/stars/grai-io/grai-core?style=social&color=white)](https://github.com/grai-io/grai-core/stargazers)  
+  **Data lineage and dependency graph framework.** Programmatic engine for testing schema changes and verifying downstream impact in CI/CD pipelines before deployment.
 
-- **[Apache Airflow](https://github.com/apache/airflow)**  
-  **Open-source workflow orchestration platform.**  
-  Provides pipeline metadata and execution information that can feed lineage and catalog systems.
+- **[Open Data Contract Standard (ODCS)](https://github.com/bitol-io/open-data-contract-standard)** [![GitHub stars](https://img.shields.io/github/stars/bitol-io/open-data-contract-standard?style=social&color=white)](https://github.com/bitol-io/open-data-contract-standard/stargazers)  
+  **Vendor-neutral standard for data contracts.** Defines YAML specifications for data schema declarations, SLA definitions, data quality rules, and consumer-producer agreements.
 
-- **[Dagster](https://github.com/dagster-io/dagster)**  
-  **Open-source data orchestration platform.**  
-  Provides asset-aware metadata and lineage concepts useful for data discovery.
+- **[OpenMetadata Standards](https://github.com/open-metadata/OpenMetadata-standards)** [![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata-standards?style=social&color=white)](https://github.com/open-metadata/OpenMetadata-standards/stargazers)  
+  **Standardized JSON Schema definitions for active metadata.** Community-driven specifications covering tables, pipelines, dashboards, ML models, quality tests, and data products.
 
-- **[Prefect](https://github.com/PrefectHQ/prefect)**  
-  **Open-source workflow orchestration platform.**  
-  Provides metadata around data workflows, execution and pipeline assets.
+- **[Egeria](https://github.com/odpi/egeria)** [![GitHub stars](https://img.shields.io/github/stars/odpi/egeria?style=social&color=white)](https://github.com/odpi/egeria/stargazers)  
+  **Open metadata and governance standard ecosystem.** Supports federated metadata exchange, automated governance workflows, and cross-catalog synchronization under ODPi.
 
-- **[Apache Spark](https://github.com/apache/spark)**  
-  **Open-source distributed data-processing engine.**  
-  Its execution and metadata ecosystem can contribute to data-lineage and catalog integrations.
+- **[Metaphor Connectors](https://github.com/Metaphor-Data/connectors)** [![GitHub stars](https://img.shields.io/github/stars/Metaphor-Data/connectors?style=social&color=white)](https://github.com/Metaphor-Data/connectors/stargazers)  
+  **Open-source metadata ingestion extractors.** Modular Python connectors for extracting schemas, queries, usage logs, and lineage from popular modern data stack tools.
 
-### Data Lake / Table Metadata
+---
 
-- **[Apache Iceberg](https://github.com/apache/iceberg)**  
-  **Open table format for large analytic datasets.**  
-  Provides table metadata, snapshots, schemas and evolution information that can be surfaced through catalogs.
+### 💾 Lakehouse, Table Formats & Storage Metadata
 
-- **[Apache Hudi](https://github.com/apache/hudi)**  
-  **Open-source data-lakehouse storage framework.**  
-  Provides table metadata, schema evolution and data-management capabilities useful for catalog integration.
+- **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+  **In-process analytical SQL database management system.** Reads parquet/lakehouse metadata directly and acts as a fast querying engine for local metadata analysis.
 
-- **[Delta Lake](https://github.com/delta-io/delta)**  
-  **Open-source lakehouse storage layer.**  
-  Provides transaction logs, schemas, table history and metadata useful for data discovery and governance.
+- **[Delta Lake](https://github.com/delta-io/delta)** [![GitHub stars](https://img.shields.io/github/stars/delta-io/delta?style=social&color=white)](https://github.com/delta-io/delta/stargazers)  
+  **Open-source storage framework for lakehouses.** Provides ACID transactions, schema enforcement, time-travel history, and commit log metadata for table-level discovery.
 
-- **[Project Nessie](https://github.com/projectnessie/nessie)**  
-  **Open-source transactional catalog for data lakes.**  
-  Provides Git-like versioning and catalog functionality for data-lake tables.
+- **[Apache Iceberg](https://github.com/apache/iceberg)** [![GitHub stars](https://img.shields.io/github/stars/apache/iceberg?style=social&color=white)](https://github.com/apache/iceberg/stargazers)  
+  **High-performance open table format for analytic datasets.** Manages table snapshots, schema evolution, partition specifications, and manifest files accessible by catalogs.
 
-### Data Marketplace & Public Data Discovery
+- **[Apache Hudi](https://github.com/apache/hudi)** [![GitHub stars](https://img.shields.io/github/stars/apache/hudi?style=social&color=white)](https://github.com/apache/hudi/stargazers)  
+  **Transactional data-lake platform.** Offers stream-native storage, incremental upserts, file sizing metadata, and schema tracking for data lake discovery.
 
-- **[CKAN](https://github.com/ckan/ckan)**  
-  **Open-source data catalog and marketplace.**  
-  Provides dataset publishing, discovery, APIs, organizations, metadata and data portals.
+- **[Project Nessie](https://github.com/projectnessie/nessie)** [![GitHub stars](https://img.shields.io/github/stars/projectnessie/nessie?style=social&color=white)](https://github.com/projectnessie/nessie/stargazers)  
+  **Transactional catalog with Git-like semantics for data lakes.** Enables branching, merging, and version-controlled metadata commits across Iceberg and Delta tables.
 
-- **[Magda](https://github.com/magda-io/magda)**  
-  **Open-source federated data catalog.**  
-  Useful for discovering datasets across multiple organizations and data sources.
+---
 
-- **[Data Commons](https://github.com/datacommonsorg)**  
-  **Open data knowledge-graph ecosystem.**  
-  Provides structured data and knowledge-graph infrastructure for discovering and connecting public datasets.
+### 🎯 Data Quality, Profiling & Observability
 
-### Search & Semantic Discovery
+- **[Great Expectations](https://github.com/great-expectations/great_expectations)** [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)  
+  **Shared standard for data pipeline testing and validation.** Automatically generates dataset documentation, validation reports, and trust badges for catalogs.
 
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
-  **Open-source search and analytics engine.**  
-  Useful as the search layer for large metadata catalogs.
+- **[Pandera](https://github.com/unionai-oss/pandera)** [![GitHub stars](https://img.shields.io/github/stars/unionai-oss/pandera?style=social&color=white)](https://github.com/unionai-oss/pandera/stargazers)  
+  **Statistical data validation library for Python dataframes.** Enforces dataframe schemas at runtime (pandas, polars, pyspark) and generates schema metadata.
 
-- **[Apache Solr](https://github.com/apache/solr)**  
-  **Open-source search platform.**  
-  Provides indexing, faceting, filtering and full-text search for data catalogs.
+- **[Deequ](https://github.com/awslabs/deequ)** [![GitHub stars](https://img.shields.io/github/stars/awslabs/deequ?style=social&color=white)](https://github.com/awslabs/deequ/stargazers)  
+  **Automated data quality verification library for Apache Spark.** Computes large-scale dataset profiling metrics, constraints, and statistical quality scores.
 
-- **[Elasticsearch](https://github.com/elastic/elasticsearch)**  
-  Search and analytics engine frequently used as a metadata-search component. License terms should be reviewed carefully for the specific version/deployment.
+- **[Elementary](https://github.com/elementary-data/elementary)** [![GitHub stars](https://img.shields.io/github/stars/elementary-data/elementary?style=social&color=white)](https://github.com/elementary-data/elementary/stargazers)  
+  **dbt-native data observability and monitoring platform.** Provides anomaly detection, schema change alerts, model performance metrics, and test lineage.
 
-- **[Meilisearch](https://github.com/meilisearch/meilisearch)**  
-  **Open-source search engine.**  
-  Useful for fast metadata, dataset, glossary and documentation search.
+- **[Soda Core](https://github.com/sodadata/soda-core)** [![GitHub stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social&color=white)](https://github.com/sodadata/soda-core/stargazers)  
+  **CLI & Python library for data reliability testing.** Executes SodaCL YAML checks against databases and streams quality verification signals to catalogs.
 
-- **[Typesense](https://github.com/typesense/typesense)**  
-  **Open-source search engine.**  
-  Useful for typo-tolerant catalog and metadata discovery.
+- **[Whylogs](https://github.com/whylabs/whylogs)** [![GitHub stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers)  
+  **Statistical data profiling library for tabular and text data.** Creates lightweight, mergeable mathematical profiles to monitor data drift and quality in catalogs.
 
-### Knowledge Graph & Semantic Infrastructure
+---
 
-- **[Apache Jena](https://github.com/apache/jena)**  
-  **Open-source RDF and semantic-web framework.**  
-  Useful for representing business concepts, relationships, ontologies and semantic metadata.
+### 🕸️ Knowledge Graphs & Semantic Infrastructure
 
-- **[Neo4j Community](https://github.com/neo4j/neo4j)**  
-  Graph database with a community/open-source edition that can be used for metadata and lineage graph experiments. Verify current licensing and edition terms before commercial deployment.
+- **[Apache Jena](https://github.com/apache/jena)** [![GitHub stars](https://img.shields.io/github/stars/apache/jena?style=social&color=white)](https://github.com/apache/jena/stargazers)  
+  **Open-source RDF and semantic web framework.** Enables SPARQL querying, ontology modeling (OWL/RDFS), and semantic relationship graphs for enterprise glossaries.
 
-- **[JanusGraph](https://github.com/JanusGraph/janusgraph)**  
-  **Open-source distributed graph database.**  
-  Useful for large metadata graphs, lineage relationships and semantic discovery.
+- **[JanusGraph](https://github.com/JanusGraph/janusgraph)** [![GitHub stars](https://img.shields.io/github/stars/JanusGraph/janusgraph?style=social&color=white)](https://github.com/JanusGraph/janusgraph/stargazers)  
+  **Scalable distributed graph database.** Powers petabyte-scale lineage graphs and multi-hop metadata traversal backed by Cassandra, HBase, or BerkeleyDB.
 
-- **[Apache AGE](https://github.com/apache/age)**  
-  **Open-source graph extension for PostgreSQL.**  
-  Useful for building graph-oriented metadata and lineage functionality on PostgreSQL.
+- **[Apache AGE](https://github.com/apache/age)** [![GitHub stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers)  
+  **Graph extension for PostgreSQL.** Brings openCypher graph query capabilities into relational PostgreSQL stores for lightweight metadata graph indexing.
 
-### Data Observability & Catalog Enrichment
+## 🏆 Ranked Open-Source Leaderboard
 
-- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)**  
-  Combines discovery with quality, observability, lineage, ownership and governance context. :contentReference[oaicite:10]{index=10}
+*Top open-source projects across the entire data discovery, metadata, lineage, quality, and search landscape (sorted by star count descending):*
 
-- **[DataHub](https://github.com/datahub-project/datahub)**  
-  Combines catalog discovery with governance, lineage, usage information and observability capabilities. :contentReference[oaicite:11]{index=11}
-
-- **[Elementary](https://github.com/elementary-data/elementary)**  
-  **Open-source data observability platform for dbt.**  
-  Provides data-quality and pipeline-health information that can enrich a catalog.
-
-- **[Whylogs](https://github.com/whylabs/whylogs)**  
-  **Open-source data-profiling library.**  
-  Useful for generating statistical profiles and data-quality signals.
-
-## Additional Strong Open-Source Options
-
-The following projects are not necessarily complete Atlan/Alation/Collibra/Purview replacements but can provide important components for an open-source data-discovery ecosystem:
-
-- **[DataHub](https://github.com/datahub-project/datahub)** for enterprise data discovery, metadata, governance and lineage. :contentReference[oaicite:12]{index=12}
-- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** for cataloging, discovery, lineage, quality, governance and AI context. :contentReference[oaicite:13]{index=13}
-- **[Amundsen](https://github.com/amundsen-io/amundsen)** for searchable data discovery.
-- **[Open Data Discovery](https://github.com/opendatadiscovery-ecosystem/odd-platform)** for open metadata and discovery infrastructure.
-- **[Apache Atlas](https://github.com/apache/atlas)** for metadata governance and classification.
-- **[Egeria](https://github.com/odpi/egeria)** for metadata interoperability and governance.
-- **[Apache Gravitino](https://github.com/apache/gravitino)** for unified metadata management.
-- **[Marquez](https://github.com/MarquezProject/marquez)** for lineage metadata.
-- **[Magda](https://github.com/magda-io/magda)** for federated data catalogs.
-- **[CKAN](https://github.com/ckan/ckan)** for open data portals and marketplaces.
-- **[Grai Core](https://github.com/grai-io/grai-core)** for data lineage and metadata graphs.
-- **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** for open lineage events.
-- **[Soda Core](https://github.com/sodadata/soda-core)** for data-quality checks.
-- **[Great Expectations](https://github.com/great-expectations/great_expectations)** for data validation.
-- **[Deequ](https://github.com/awslabs/deequ)** for large-scale data-quality verification.
-- **[Pandera](https://github.com/unionai-oss/pandera)** for Python data validation.
-- **[dbt Core](https://github.com/dbt-labs/dbt-core)** for transformation metadata and documentation.
-- **[Apache Airflow](https://github.com/apache/airflow)** for pipeline orchestration and metadata.
-- **[Dagster](https://github.com/dagster-io/dagster)** for asset-oriented data orchestration.
-- **[Prefect](https://github.com/PrefectHQ/prefect)** for workflow metadata.
-- **[Apache Iceberg](https://github.com/apache/iceberg)** for table metadata and lakehouse catalogs.
-- **[Apache Hudi](https://github.com/apache/hudi)** for data-lake table management.
-- **[Delta Lake](https://github.com/delta-io/delta)** for lakehouse metadata.
-- **[Project Nessie](https://github.com/projectnessie/nessie)** for versioned data catalogs.
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** for catalog search.
-- **[Apache Solr](https://github.com/apache/solr)** for metadata indexing.
-- **[Meilisearch](https://github.com/meilisearch/meilisearch)** for lightweight semantic/keyword discovery.
-- **[Typesense](https://github.com/typesense/typesense)** for fast catalog search.
-- **[Apache Jena](https://github.com/apache/jena)** for semantic-web and ontology infrastructure.
-- **[JanusGraph](https://github.com/JanusGraph/janusgraph)** for distributed metadata graphs.
-- **[Apache AGE](https://github.com/apache/age)** for graph functionality on PostgreSQL.
-- **[Elementary](https://github.com/elementary-data/elementary)** for dbt-focused data observability.
-- **[Whylogs](https://github.com/whylabs/whylogs)** for statistical data profiling.
+1. **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) — Enterprise BI, visualization & dataset discovery
+2. **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) — Ultra-fast metadata and glossary search engine
+3. **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) — Big data analytics and transformation engine
+4. **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) — Pipeline workflow orchestration & execution events
+5. **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) — Open-source data exploration, dictionary & analytics
+6. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers) — Fast in-process SQL metadata engine
+7. **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers) — Typo-tolerant fast catalog search engine
+8. **[Cube](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) — Universal semantic layer & metric catalog
+9. **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers) — Workflow coordination & pipeline asset tracking
+10. **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers) — Asset-native orchestration & metadata graph
+11. **[dbt Core](https://github.com/dbt-labs/dbt-core)** [![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers) — Transformation metadata, tests & schema docs
+12. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) — Distributed search & vector layer for metadata
+13. **[Great Expectations](https://github.com/great-expectations/great_expectations)** [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers) — Automated data quality & schema testing
+14. **[DataHub](https://github.com/datahub-project/datahub)** [![GitHub stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers) — Extensible metadata platform, catalog & lineage
+15. **[Delta Lake](https://github.com/delta-io/delta)** [![GitHub stars](https://img.shields.io/github/stars/delta-io/delta?style=social&color=white)](https://github.com/delta-io/delta/stargazers) — Storage layer & transaction log metadata
+16. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers) — Data catalog, governance & AI context engine
+17. **[Apache Iceberg](https://github.com/apache/iceberg)** [![GitHub stars](https://img.shields.io/github/stars/apache/iceberg?style=social&color=white)](https://github.com/apache/iceberg/stargazers) — Table metadata snapshots & partition catalog
+18. **[Apache Hudi](https://github.com/apache/hudi)** [![GitHub stars](https://img.shields.io/github/stars/apache/hudi?style=social&color=white)](https://github.com/apache/hudi/stargazers) — Transactional data lake storage metadata
+19. **[Amundsen](https://github.com/amundsen-io/amundsen)** [![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers) — Searchable data discovery platform
+20. **[CKAN](https://github.com/ckan/ckan)** [![GitHub stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers) — Open data catalog & portal ecosystem
+21. **[Pandera](https://github.com/unionai-oss/pandera)** [![GitHub stars](https://img.shields.io/github/stars/unionai-oss/pandera?style=social&color=white)](https://github.com/unionai-oss/pandera/stargazers) — Python dataframe validation & typing
+22. **[Deequ](https://github.com/awslabs/deequ)** [![GitHub stars](https://img.shields.io/github/stars/awslabs/deequ?style=social&color=white)](https://github.com/awslabs/deequ/stargazers) — Spark automated data quality & profiling
+23. **[Elementary](https://github.com/elementary-data/elementary)** [![GitHub stars](https://img.shields.io/github/stars/elementary-data/elementary?style=social&color=white)](https://github.com/elementary-data/elementary/stargazers) — dbt-native data observability
+24. **[Soda Core](https://github.com/sodadata/soda-core)** [![GitHub stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social&color=white)](https://github.com/sodadata/soda-core/stargazers) — Data reliability testing & SodaCL checks
+25. **[Apache Atlas](https://github.com/apache/atlas)** [![GitHub stars](https://img.shields.io/github/stars/apache/atlas?style=social&color=white)](https://github.com/apache/atlas/stargazers) — Hadoop/Spark metadata governance framework
+26. **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** [![GitHub stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers) — Open lineage collection standard
+27. **[Marquez](https://github.com/MarquezProject/marquez)** [![GitHub stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers) — OpenLineage collection & graph service
+28. **[Apache Gravitino](https://github.com/apache/gravitino)** [![GitHub stars](https://img.shields.io/github/stars/apache/gravitino?style=social&color=white)](https://github.com/apache/gravitino/stargazers) — Multi-cloud unified metadata system
+29. **[Project Nessie](https://github.com/projectnessie/nessie)** [![GitHub stars](https://img.shields.io/github/stars/projectnessie/nessie?style=social&color=white)](https://github.com/projectnessie/nessie/stargazers) — Git-like transactional catalog for lakes
+30. **[Whylogs](https://github.com/whylabs/whylogs)** [![GitHub stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers) — Statistical data profiling & drift telemetry
+31. **[Magda](https://github.com/magda-io/magda)** [![GitHub stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers) — Federated public & enterprise data portal
+32. **[Grai Core](https://github.com/grai-io/grai-core)** [![GitHub stars](https://img.shields.io/github/stars/grai-io/grai-core?style=social&color=white)](https://github.com/grai-io/grai-core/stargazers) — Lineage graph & CI/CD change impact engine
+33. **[Spline](https://github.com/AbsaOSS/spline)** [![GitHub stars](https://img.shields.io/github/stars/AbsaOSS/spline?style=social&color=white)](https://github.com/AbsaOSS/spline/stargazers) — Automated Spark column lineage tracker
+34. **[Open Data Contract Standard](https://github.com/bitol-io/open-data-contract-standard)** [![GitHub stars](https://img.shields.io/github/stars/bitol-io/open-data-contract-standard?style=social&color=white)](https://github.com/bitol-io/open-data-contract-standard/stargazers) — Data contract YAML specification
+35. **[Open Data Discovery](https://github.com/opendatadiscovery-ecosystem/odd-platform)** [![GitHub stars](https://img.shields.io/github/stars/opendatadiscovery-ecosystem/odd-platform?style=social&color=white)](https://github.com/opendatadiscovery-ecosystem/odd-platform/stargazers) — Metadata, observability & discovery
+36. **[Egeria](https://github.com/odpi/egeria)** [![GitHub stars](https://img.shields.io/github/stars/odpi/egeria?style=social&color=white)](https://github.com/odpi/egeria/stargazers) — Open metadata exchange & governance standard
 
 ## Recommended Open-Source Data Discovery Stack
 
@@ -843,57 +821,32 @@ AI Data Discovery Architecture
 
 The AI layer should never treat raw metadata as sufficient context. Business definitions, ownership, lineage, quality, access policies and governance information should accompany the data-discovery response.
 
-How to Contribute
+## 📈 Star History
 
-Fork the repo.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Discovery&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Discovery&type=date&legend=top-left)
 
-Add/edit entries in README.md (follow existing format).
+---
 
-Include: name, GitHub/official link, 1–2 sentence description, and whether it is data catalog, discovery, metadata management, lineage, governance, data quality, marketplace, search or AI context infrastructure.
+## 🤝 How to Contribute
 
-Clearly distinguish between a complete data-discovery platform and a component that can be used to build one.
+Contributions are warmly welcomed! To contribute:
 
-Prefer actively maintained projects with clear licenses and documentation.
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch**: `git checkout -b add-my-tool`.
+3. 📝 **Add/Update entries** in `README.md` (following the existing table / badge format).
+4. 🔗 Ensure all links point to official project websites or GitHub repositories.
+5. 🚀 **Submit a Pull Request** with a brief description of why the tool is valuable.
+6. ⭐ **Star this repository** if you find it helpful!
 
-Mention the license where it materially affects self-hosting or commercial use.
+---
 
-Identify whether the project focuses primarily on enterprise data discovery, public data, metadata, lineage, governance, quality or AI context.
+## 📜 Disclaimer
 
-Submit PR with a short explanation.
+*This is a community-curated list — not exhaustive and not an endorsement. Data discovery, data cataloging, active metadata management, lineage, data governance, and data observability are distinct yet intersecting disciplines. Verify license terms, connector capabilities, and security architectures prior to enterprise production deployment.*
 
-Star the repo if you find it useful!
+---
 
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Data discovery, data cataloging, data governance, data quality, lineage and data observability are related but distinct categories.
-
-DataHub and OpenMetadata are among the strongest open-source choices for a modern enterprise data catalog/discovery platform. DataHub is Apache 2.0 licensed, while OpenMetadata is released under Apache 2.0. 
-GitHub
-+1
-
-Amundsen, Apache Atlas, Egeria, Open Data Discovery, Gravitino, Marquez and Magda provide important open-source alternatives or components, but their capabilities and maturity differ substantially. 
-GitHub
-+1
-
-CKAN is particularly strong for public/open-data catalogs and data portals rather than replacing a complete enterprise data-intelligence platform.
-
-OpenLineage and Marquez are primarily lineage infrastructure rather than complete data catalogs.
-
-Great Expectations, Soda Core, Elementary and Deequ are primarily data-quality components rather than discovery platforms.
-
-OpenSearch, Solr, Meilisearch and Typesense are search components that can support a catalog rather than complete catalog products.
-
-Apache Jena, JanusGraph and Apache AGE provide graph/semantic infrastructure rather than ready-made enterprise data catalogs.
-
-Open-source, source-available, open-core and self-hostable are not interchangeable terms. Verify the exact license of every component before commercial deployment.
-
-Data catalogs process potentially sensitive metadata, business information, PII classifications, lineage and access information. Self-hosted deployments require strong authentication, authorization, encryption, audit logging, backups and security monitoring.
-
-AI-assisted discovery should respect existing data-access permissions and governance policies. Catalog access must not become an unintended path around underlying data controls.
-
-Always verify project activity, license terms, connector coverage, security posture, scalability, metadata freshness, lineage capabilities and production readiness before deploying an open-source project.
-
-Made for data engineers, analytics engineers, data scientists, data stewards, data governance teams, CDO organizations, BI teams, AI engineers, platform engineers, developers and enterprises building open data infrastructure.
-Let's make data discovery more open, searchable, interoperable, governed, trustworthy, self-hostable, AI-ready and data-driven.
+<p align="center">
+  <b>Built for Data Engineers, Analytics Engineers, Data Architects, CDOs, and AI Practitioners.</b><br>
+  <sub>Let us build an open, searchable, governed, trustworthy, and AI-ready data discovery ecosystem.</sub>
+</p>
